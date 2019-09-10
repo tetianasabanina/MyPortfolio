@@ -1,0 +1,30 @@
+@media only screen and (max-width: 576px) {
+    .hero-unit {
+        text-align: center;
+        background: url('../img/hero-unit-background-mobile.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .hero-unit-heading {
+        font-size: 40px;
+    }
+    .hero-unit-subheading {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .content-section.content-section-side-image {
+        flex-direction: column;
+    }
+    .content-section-side-image-container {
+        min-height: 80px;
+        width: 100%;
+    }
+    .content-section-side-image-heading {
+        text-align: center;
+
+    }
+}
