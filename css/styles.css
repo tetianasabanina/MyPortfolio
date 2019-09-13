@@ -30,6 +30,7 @@ a {
 a.hover, a.active, a.focus {
     color: darken(#9acff6, 15%);
 }
+
 /* buttons.scss */
 
 .btn {
@@ -37,7 +38,8 @@ a.hover, a.active, a.focus {
     font-weight: 600;
     letter-spacing: 1.5px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
-  
+    border: 0;
+    padding: 15px 23px;
 }
 
 .btn-primary {
@@ -61,6 +63,9 @@ a.hover, a.active, a.focus {
 }
 .img-circle {
     border-radius: 50%;
+}
+.bg-primary {
+    background: linear-gradient(105.63deg, #EA2626 -21.04%, #0029FF 147.44%);
 }
 
 /* hero-unit.scss */   
@@ -96,7 +101,7 @@ a.hover, a.active, a.focus {
     flex-direction: row;
     padding: 0;
 }
-.content-section-side-image-content.container {
+.content-section-side-image-content {
     flex-grow: 1;
     padding: 50px;
 }
@@ -224,4 +229,19 @@ textarea.contact-form-input {
     letter-spacing: 1px;
     text-align: center;
     padding: 0 10px;
+}
+
+/* skillsets.scss */
+.skillset {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.skillset-heading {
+    text-transform: uppercase;
+    color: #797979;
+    letter-spacing: 1.6px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
