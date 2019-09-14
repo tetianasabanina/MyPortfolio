@@ -4,4 +4,9 @@ $(document).ready(function () {
             scrollTop: $('#portfolio-section').offset().top
         }, 1500);
     });
+    $('#contact-button').click(function () {
+        $('html, body').animate({
+            scrollTop: $('#contact-section').offset().top
+        }, 1500);
+    });
 });
